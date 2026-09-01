@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "description": "首页精选叙事线 — 点击后在时间轴/地图按事件序列播放",
+  "narratives": [
+    {
+      "slug": "silk-road",
+      "icon": "✦",
+      "title": {
+        "zh-CN": "丝绸之路：世界如何被连接",
+        "en-US": "The Silk Road: How the World Connected"
+      },
+      "subtitle": {
+        "zh-CN": "从汉帝国到郑和宝船，欧亚非的商路与信仰之路",
+        "en-US": "From Han empire to Zheng He's fleet — trade and faith across Eurasia"
+      },
+      "eventIds": ["event-32", "event-36", "event-53", "event-59", "event-85"],
+      "defaultView": "map",
+      "mapQuery": { "routes": "1" }
+    },
+    {
+      "slug": "empire-twilight",
+      "icon": "◐",
+      "title": {
+        "zh-CN": "帝国黄昏：罗马与汉唐的平行比较",
+        "en-US": "Twilight of Empires: Rome and Han–Tang in Parallel"
+      },
+      "subtitle": {
+        "zh-CN": "两大文明从崛起到分裂，最终在1453年交汇于君士坦丁堡",
+        "en-US": "Two civilizations rise, split, and meet again at Constantinople in 1453"
+      },
+      "eventIds": ["event-32", "event-33", "event-51", "event-41", "event-44", "event-64", "event-86"],
+      "defaultView": "timeline"
+    },
+    {
+      "slug": "age-of-sail",
+      "icon": "⛵",
+      "title": {
+        "zh-CN": "大航海时代：改变世界的航线",
+        "en-US": "The Age of Sail: Routes That Changed the World"
+      },
+      "subtitle": {
+        "zh-CN": "君士坦丁堡陷落、郑和下西洋与哥伦布——旧秩序与新航路",
+        "en-US": "Fall of Constantinople, Zheng He, and Columbus — old order, new oceans"
+      },
+      "eventIds": ["event-86", "event-85", "event-88"],
+      "defaultView": "map",
+      "mapQuery": { "routes": "1" }
+    }
+  ]
+}

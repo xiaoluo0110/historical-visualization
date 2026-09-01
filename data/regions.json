@@ -1,0 +1,106 @@
+{
+  "version": "1.1",
+  "colorSource": "civilization-colors.json",
+  "regions": [
+    {
+      "id": "china",
+      "name": { "zh-CN": "中国", "en-US": "China" },
+      "color": "#C41A1A",
+      "colorLabel": { "zh-CN": "朱红", "en-US": "Vermilion" },
+      "dynasties": [
+        { "id": "xia", "name": { "zh-CN": "夏", "en-US": "Xia" }, "startYear": -2070, "endYear": -1600, "uncertain": true },
+        { "id": "shang", "name": { "zh-CN": "商", "en-US": "Shang" }, "startYear": -1600, "endYear": -1046, "uncertain": true },
+        { "id": "zhou", "name": { "zh-CN": "周", "en-US": "Zhou" }, "startYear": -1046, "endYear": -256 },
+        { "id": "qin", "name": { "zh-CN": "秦", "en-US": "Qin" }, "startYear": -221, "endYear": -206 },
+        { "id": "han", "name": { "zh-CN": "汉", "en-US": "Han" }, "startYear": -206, "endYear": 220 },
+        { "id": "tang", "name": { "zh-CN": "唐", "en-US": "Tang" }, "startYear": 618, "endYear": 907 },
+        { "id": "song", "name": { "zh-CN": "宋", "en-US": "Song" }, "startYear": 960, "endYear": 1279 },
+        { "id": "yuan", "name": { "zh-CN": "元", "en-US": "Yuan" }, "startYear": 1271, "endYear": 1368 },
+        { "id": "ming", "name": { "zh-CN": "明", "en-US": "Ming" }, "startYear": 1368, "endYear": 1644 },
+        { "id": "qing", "name": { "zh-CN": "清", "en-US": "Qing" }, "startYear": 1644, "endYear": 1912 }
+      ]
+    },
+    {
+      "id": "europe",
+      "name": { "zh-CN": "欧洲", "en-US": "Europe" },
+      "color": "#1A3A6A",
+      "colorLabel": { "zh-CN": "靛蓝", "en-US": "Indigo" },
+      "dynasties": [
+        { "id": "rome-republic", "name": { "zh-CN": "罗马共和国", "en-US": "Roman Republic" }, "startYear": -509, "endYear": -27 },
+        { "id": "rome-empire", "name": { "zh-CN": "罗马帝国", "en-US": "Roman Empire" }, "startYear": -27, "endYear": 476 },
+        { "id": "renaissance", "name": { "zh-CN": "文艺复兴", "en-US": "Renaissance" }, "startYear": 1400, "endYear": 1600 }
+      ]
+    },
+    {
+      "id": "middle_east",
+      "name": { "zh-CN": "中东", "en-US": "Middle East" },
+      "color": "#8B5A2B",
+      "colorLabel": { "zh-CN": "赭石", "en-US": "Ochre" },
+      "dynasties": [
+        { "id": "arab-empire", "name": { "zh-CN": "阿拉伯帝国", "en-US": "Arab Empire" }, "startYear": 632, "endYear": 1258 }
+      ]
+    },
+    {
+      "id": "south_asia",
+      "name": { "zh-CN": "南亚", "en-US": "South Asia" },
+      "color": "#1B8A5A",
+      "colorLabel": { "zh-CN": "孔雀绿", "en-US": "Peacock Green" },
+      "dynasties": [
+        { "id": "maurya", "name": { "zh-CN": "孔雀王朝", "en-US": "Maurya Empire" }, "startYear": -322, "endYear": -185 }
+      ]
+    },
+    {
+      "id": "east_asia",
+      "name": { "zh-CN": "东亚", "en-US": "East Asia" },
+      "color": "#B8860B",
+      "colorLabel": { "zh-CN": "暗金", "en-US": "Dark Gold" },
+      "dynasties": []
+    },
+    {
+      "id": "americas",
+      "name": { "zh-CN": "美洲", "en-US": "Americas" },
+      "color": "#D47B2A",
+      "colorLabel": { "zh-CN": "橙黄", "en-US": "Orange" },
+      "dynasties": []
+    },
+    {
+      "id": "africa",
+      "name": { "zh-CN": "非洲", "en-US": "Africa" },
+      "color": "#6A4C3A",
+      "colorLabel": { "zh-CN": "咖啡棕", "en-US": "Coffee Brown" },
+      "dynasties": [
+        { "id": "ancient-egypt", "name": { "zh-CN": "古埃及", "en-US": "Ancient Egypt" }, "startYear": -3100, "endYear": -30, "uncertain": true }
+      ]
+    },
+    {
+      "id": "southeast_asia",
+      "name": { "zh-CN": "东南亚", "en-US": "Southeast Asia" },
+      "color": "#2E8B57",
+      "colorLabel": { "zh-CN": "海洋绿", "en-US": "Sea Green" },
+      "dynasties": []
+    },
+    {
+      "id": "central_asia",
+      "name": { "zh-CN": "中亚", "en-US": "Central Asia" },
+      "color": "#8B7D6B",
+      "colorLabel": { "zh-CN": "灰褐", "en-US": "Taupe" },
+      "dynasties": []
+    }
+  ],
+  "eventTypes": [
+    { "id": "politics", "name": { "zh-CN": "政治", "en-US": "Politics" } },
+    { "id": "war", "name": { "zh-CN": "战争", "en-US": "War" } },
+    { "id": "culture", "name": { "zh-CN": "文化", "en-US": "Culture" } },
+    { "id": "diplomacy", "name": { "zh-CN": "外交", "en-US": "Diplomacy" } },
+    { "id": "tech", "name": { "zh-CN": "科技", "en-US": "Technology" } },
+    { "id": "institution", "name": { "zh-CN": "制度与治理", "en-US": "Institutions" } },
+    { "id": "disaster", "name": { "zh-CN": "灾难与变迁", "en-US": "Disasters" } }
+  ],
+  "themeTopics": [
+    { "id": "war", "name": { "zh-CN": "战争与征服", "en-US": "War & Conquest" } },
+    { "id": "exchange", "name": { "zh-CN": "文明交汇", "en-US": "Civilizational Exchange" } },
+    { "id": "ideas", "name": { "zh-CN": "思想与科技", "en-US": "Ideas & Technology" } },
+    { "id": "institution", "name": { "zh-CN": "制度与治理", "en-US": "Institutions & Governance" } },
+    { "id": "disaster", "name": { "zh-CN": "灾难与变迁", "en-US": "Disasters & Change" } }
+  ]
+}
