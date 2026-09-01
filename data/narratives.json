@@ -3,6 +3,31 @@
   "description": "首页精选叙事线 — 点击后在时间轴/地图按事件序列播放",
   "narratives": [
     {
+      "slug": "from-prehistory",
+      "icon": "◇",
+      "title": {
+        "zh-CN": "从史前到王朝：文明如何醒来",
+        "en-US": "From Prehistory to Dynasty: How Civilization Awoke"
+      },
+      "subtitle": {
+        "zh-CN": "元谋人、河姆渡、良渚到夏商西周——课本里的中国起源一路走来",
+        "en-US": "From Yuanmou and Hemudu to Liangzhu and the early dynasties—the textbook origins of China"
+      },
+      "eventIds": [
+        "event-182",
+        "event-183",
+        "event-185",
+        "event-186",
+        "event-189",
+        "event-190",
+        "event-3",
+        "event-4",
+        "event-8",
+        "event-12"
+      ],
+      "defaultView": "timeline"
+    },
+    {
       "slug": "silk-road",
       "icon": "✦",
       "title": {
@@ -10,10 +35,10 @@
         "en-US": "The Silk Road: How the World Connected"
       },
       "subtitle": {
-        "zh-CN": "从汉帝国到郑和宝船，欧亚非的商路与信仰之路",
-        "en-US": "From Han empire to Zheng He's fleet — trade and faith across Eurasia"
+        "zh-CN": "从张骞凿空到班超、玄奘与郑和宝船，欧亚非的商路与信仰之路",
+        "en-US": "From Zhang Qian to Ban Chao, Xuanzang, and Zheng He—trade and faith across Eurasia"
       },
-      "eventIds": ["event-32", "event-36", "event-53", "event-59", "event-85"],
+      "eventIds": ["event-192", "event-36", "event-53", "event-59", "event-85"],
       "defaultView": "map",
       "mapQuery": { "routes": "1" }
     },

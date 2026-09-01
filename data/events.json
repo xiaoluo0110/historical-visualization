@@ -4,9 +4,9 @@
   "reviewed_at": "2026-08-25",
   "source": "deepseek_json_20260825_eb96cb.json",
   "review_summary": {
-    "total": 180,
+    "total": 200,
     "removed_duplicates": 1,
-    "uncertain_count": 31,
+    "uncertain_count": 45,
     "fixes": [
       "合并武王伐纣/牧野之战重复项",
       "玄奘西行629年、金刚经敦煌坐标、郑和南京出发港",
@@ -14,9 +14,466 @@
       "新罗统一676年、古埃及归非洲",
       "传说/宗教/年代争议事件标注 uncertain"
     ],
-    "last_expansion": "2026-08-26"
+    "last_expansion": "2026-09-01"
   },
   "events": [
+    {
+      "enriched": true,
+      "id": "event-182",
+      "legacy_id": 182,
+      "startYear": -1700000,
+      "endYear": -1700000,
+      "year_label": "约 170 万年前",
+      "precision": "approximate",
+      "uncertain": true,
+      "title": {
+        "zh-CN": "元谋人",
+        "en-US": "Yuanmou Man"
+      },
+      "summary": {
+        "zh-CN": "云南元谋发现的早期直立人化石，是中国境内已知较早的远古人类之一。",
+        "en-US": "Early Homo erectus fossils from Yuanmou, Yunnan—among the earliest known humans in China."
+      },
+      "body": {
+        "zh-CN": "1965 年在云南元谋上那蚌发现两枚门齿化石，学界多归为直立人。绝对年代仍有争议，中学教材常记为约 170 万年前，代表中国远古人类演进的起点。",
+        "en-US": "Two incisors found in 1965 at Yuanmou are usually attributed to Homo erectus. Absolute dating remains debated; Chinese textbooks often cite about 1.7 million years ago as a landmark of early humans in China."
+      },
+      "region": "china",
+      "type": [
+        "culture"
+      ],
+      "location": {
+        "lat": 25.7,
+        "lng": 101.87,
+        "name": {
+          "zh-CN": "云南元谋",
+          "en-US": "Yuanmou, Yunnan"
+        }
+      },
+      "sources": [
+        "元谋人化石发现报告",
+        "中国历史（七年级）"
+      ],
+      "review_note": "绝对年代学界仍有分歧，采用教材常用约 170 万年前说。",
+      "figures": [],
+      "quote": {
+        "zh-CN": "两枚门齿，把中国人类历史的起点推到远古黎明。",
+        "en-US": "Two incisors push the dawn of human history in China deep into deep time."
+      },
+      "calendarMonth": 5,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sinathropus_pekinensis.jpg?width=640",
+        "alt": {
+          "zh-CN": "早期直立人头骨（远古人类示意）",
+          "en-US": "Early Homo erectus skull (illustrative)"
+        },
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "enriched": true,
+      "id": "event-183",
+      "legacy_id": 183,
+      "startYear": -700000,
+      "endYear": -700000,
+      "year_label": "约 70 万年前",
+      "precision": "approximate",
+      "uncertain": true,
+      "title": {
+        "zh-CN": "北京人",
+        "en-US": "Peking Man"
+      },
+      "summary": {
+        "zh-CN": "周口店发现的直立人化石与用火遗迹，是远东旧石器时代最重要的发现之一。",
+        "en-US": "Homo erectus fossils and fire use at Zhoukoudian—a key Paleolithic find in East Asia."
+      },
+      "body": {
+        "zh-CN": "北京周口店龙骨山出土的直立人头盖骨、石器与灰烬层，表明北京人已会打制石器并可能使用火。教材多记为约 70 万至 20 万年前生活于此。",
+        "en-US": "Skullcaps, stone tools, and ash layers at Zhoukoudian show Homo erectus crafted tools and likely used fire. Textbooks often place Peking Man roughly 700,000–200,000 years ago."
+      },
+      "region": "china",
+      "type": [
+        "culture",
+        "tech"
+      ],
+      "location": {
+        "lat": 39.69,
+        "lng": 115.92,
+        "name": {
+          "zh-CN": "北京周口店",
+          "en-US": "Zhoukoudian, Beijing"
+        }
+      },
+      "sources": [
+        "周口店遗址发掘报告",
+        "中国历史（七年级）"
+      ],
+      "review_note": "年代跨度大，时间轴取约 70 万年前为代表点。",
+      "figures": [],
+      "quote": {
+        "zh-CN": "龙骨山下的灰烬，是远古人类驯服黑暗的最早痕迹之一。",
+        "en-US": "Ash beneath Dragon Bone Hill is among the earliest traces of fire mastered in East Asia."
+      },
+      "calendarMonth": 12,
+      "calendarDay": 2,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sinathropus_pekinensis.jpg?width=640",
+        "alt": {
+          "zh-CN": "北京人头盖骨复原",
+          "en-US": "Peking Man skull replica"
+        },
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "enriched": true,
+      "id": "event-184",
+      "legacy_id": 184,
+      "startYear": -30000,
+      "endYear": -30000,
+      "year_label": "约 3 万年前",
+      "precision": "approximate",
+      "uncertain": true,
+      "title": {
+        "zh-CN": "山顶洞人",
+        "en-US": "Upper Cave Man"
+      },
+      "summary": {
+        "zh-CN": "周口店山顶洞出土的晚期智人，已有磨制骨器和埋葬习俗。",
+        "en-US": "Late Homo sapiens from Zhoukoudian Upper Cave, with polished bone tools and burial customs."
+      },
+      "body": {
+        "zh-CN": "山顶洞人属晚期智人，掌握磨光技术和钻孔技术，并出现随葬装饰品，显示社会组织与精神生活的萌芽。教材常记约 3 万年前。",
+        "en-US": "Upper Cave people were late Homo sapiens who polished and drilled bone and buried the dead with ornaments—early signs of social and spiritual life. Textbooks often cite about 30,000 years ago."
+      },
+      "region": "china",
+      "type": [
+        "culture"
+      ],
+      "location": {
+        "lat": 39.69,
+        "lng": 115.93,
+        "name": {
+          "zh-CN": "北京周口店山顶洞",
+          "en-US": "Upper Cave, Zhoukoudian"
+        }
+      },
+      "sources": [
+        "山顶洞人研究综述",
+        "中国历史（七年级）"
+      ],
+      "review_note": null,
+      "figures": [],
+      "quote": {
+        "zh-CN": "骨针与装饰，说明远古人类开始装点生活本身。",
+        "en-US": "Bone needles and ornaments show early humans began to adorn life itself."
+      },
+      "calendarMonth": 1,
+      "calendarDay": 15,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sinathropus_pekinensis.jpg?width=640",
+        "alt": {
+          "zh-CN": "周口店远古人类相关化石示意",
+          "en-US": "Zhoukoudian early human remains (illustrative)"
+        },
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "enriched": true,
+      "id": "event-185",
+      "legacy_id": 185,
+      "startYear": -5000,
+      "endYear": -5000,
+      "year_label": "约公元前 5000 年",
+      "precision": "approximate",
+      "uncertain": true,
+      "title": {
+        "zh-CN": "河姆渡文化",
+        "en-US": "Hemudu Culture"
+      },
+      "summary": {
+        "zh-CN": "浙江余姚河姆渡遗址见证长江下游早期稻作、干栏式建筑与精美骨器。",
+        "en-US": "Hemudu in Zhejiang shows early rice farming, pile dwellings, and fine bone tools in the lower Yangtze."
+      },
+      "body": {
+        "zh-CN": "河姆渡遗址出土大量稻谷遗存、干栏式木构建筑与骨耜等工具，证明长江流域与黄河流域一样是中华文明重要起源地。教材多记约公元前 5000 年。",
+        "en-US": "Rice remains, pile-dwelling timber, and bone spades at Hemudu show the Yangtze basin as a key cradle of Chinese civilization alongside the Yellow River. Textbooks often date it to about 5000 BCE."
+      },
+      "region": "china",
+      "type": [
+        "culture",
+        "tech"
+      ],
+      "location": {
+        "lat": 29.98,
+        "lng": 121.35,
+        "name": {
+          "zh-CN": "浙江余姚",
+          "en-US": "Yuyao, Zhejiang"
+        }
+      },
+      "sources": [
+        "河姆渡遗址发掘报告",
+        "中国历史（七年级）"
+      ],
+      "review_note": null,
+      "figures": [],
+      "quote": {
+        "zh-CN": "稻香与干栏，长江下游的定居生活在此铺开。",
+        "en-US": "Rice and pile houses—settled life unfolds along the lower Yangtze."
+      },
+      "calendarMonth": 7,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bone_Arrowheads,_Jiahu_site.jpg?width=640",
+        "alt": {
+          "zh-CN": "新石器时代骨器（河姆渡同代农耕文化示意）",
+          "en-US": "Neolithic bone tools (Yangtze farming context)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-186",
+        "event-187"
+      ]
+    },
+    {
+      "enriched": true,
+      "id": "event-186",
+      "legacy_id": 186,
+      "startYear": -4800,
+      "endYear": -4800,
+      "year_label": "约公元前 4800 年",
+      "precision": "approximate",
+      "uncertain": true,
+      "title": {
+        "zh-CN": "半坡遗址",
+        "en-US": "Banpo Site"
+      },
+      "summary": {
+        "zh-CN": "西安半坡聚落展现黄河流域仰韶时期的彩陶、穴居与公共生活。",
+        "en-US": "Banpo near Xi'an reveals Yangshao painted pottery, pit houses, and communal life on the Yellow River."
+      },
+      "body": {
+        "zh-CN": "半坡是典型的仰韶文化聚落：半地穴房屋、人面鱼纹彩陶、公共墓地与防御壕沟，常被教材用作黄河流域原始农耕社会的代表。",
+        "en-US": "Banpo is a classic Yangshao settlement: semi-subterranean houses, painted pottery with human-face fish motifs, communal cemeteries, and a defensive ditch—often used in textbooks as a model of early farming society on the Yellow River."
+      },
+      "region": "china",
+      "type": [
+        "culture"
+      ],
+      "location": {
+        "lat": 34.27,
+        "lng": 109.05,
+        "name": {
+          "zh-CN": "陕西西安半坡",
+          "en-US": "Banpo, Xi'an"
+        }
+      },
+      "sources": [
+        "半坡博物馆",
+        "中国历史（七年级）"
+      ],
+      "review_note": null,
+      "figures": [],
+      "quote": {
+        "zh-CN": "人面鱼纹彩陶上，黄河边的人们画下自己的世界。",
+        "en-US": "On painted pots, Yellow River villagers sketched the world they knew."
+      },
+      "calendarMonth": 4,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/YangshaoCordmarkedAmphoraBanpoPhase4800BCEShaanxi.jpg?width=640",
+        "alt": {
+          "zh-CN": "半坡类型仰韶弦纹陶瓶",
+          "en-US": "Banpo-phase Yangshao amphora"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-185",
+        "event-187"
+      ]
+    },
+    {
+      "enriched": true,
+      "id": "event-187",
+      "legacy_id": 187,
+      "startYear": -4000,
+      "endYear": -4000,
+      "year_label": "约公元前 4000 年",
+      "precision": "approximate",
+      "uncertain": true,
+      "title": {
+        "zh-CN": "仰韶文化鼎盛",
+        "en-US": "Yangshao Culture Flourishes"
+      },
+      "summary": {
+        "zh-CN": "以彩陶著称的仰韶文化遍布黄河中游，是新石器时代中原农耕社会的重要阶段。",
+        "en-US": "Yangshao culture, famed for painted pottery, spread across the middle Yellow River as a key Neolithic farming phase."
+      },
+      "body": {
+        "zh-CN": "仰韶文化约公元前 5000–前 3000 年，以粟作农业、彩陶与大型聚落为特征。时间轴取约公元前 4000 年代表其兴盛期。",
+        "en-US": "Yangshao culture (c. 5000–3000 BCE) featured millet farming, painted pottery, and large settlements. The timeline uses about 4000 BCE as a flourishing marker."
+      },
+      "region": "china",
+      "type": [
+        "culture"
+      ],
+      "location": {
+        "lat": 34.75,
+        "lng": 113,
+        "name": {
+          "zh-CN": "黄河中游",
+          "en-US": "Middle Yellow River"
+        }
+      },
+      "sources": [
+        "仰韶文化考古综述",
+        "中国历史（七年级）"
+      ],
+      "review_note": "文化延续千年，取兴盛期代表年。",
+      "figures": [],
+      "quote": {
+        "zh-CN": "彩陶窑火映红中原，农耕聚落连成网络。",
+        "en-US": "Kiln fires glow across the Central Plains as farming villages link into a web."
+      },
+      "calendarMonth": 6,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Neolithic_pottery_basin,_Yangshao_Culture,_Shaanxi,_1955.JPG?width=640",
+        "alt": {
+          "zh-CN": "仰韶文化彩陶盆",
+          "en-US": "Yangshao painted pottery basin"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-185",
+        "event-186",
+        "event-188"
+      ]
+    },
+    {
+      "enriched": true,
+      "id": "event-188",
+      "legacy_id": 188,
+      "startYear": -3500,
+      "endYear": -3500,
+      "year_label": "约公元前 3500 年",
+      "precision": "approximate",
+      "uncertain": true,
+      "title": {
+        "zh-CN": "红山文化",
+        "en-US": "Hongshan Culture"
+      },
+      "summary": {
+        "zh-CN": "辽西红山文化以玉龙、祭坛与女神庙闻名，显示早期礼仪社会的复杂化。",
+        "en-US": "Hongshan culture in western Liaoning is known for jade dragons, altars, and a goddess temple—early ritual complexity."
+      },
+      "body": {
+        "zh-CN": "红山文化遗址出土 C 形玉龙、积石冢与大型祭祀建筑，说明西辽河流域在新石器时代晚期已出现较高的社会组织与信仰体系。",
+        "en-US": "C-shaped jade dragons, stone cairns, and large ritual structures show that the western Liao River basin had complex social and religious organization in the late Neolithic."
+      },
+      "region": "china",
+      "type": [
+        "culture"
+      ],
+      "location": {
+        "lat": 42.3,
+        "lng": 119.5,
+        "name": {
+          "zh-CN": "辽宁朝阳一带",
+          "en-US": "Chaoyang region, Liaoning"
+        }
+      },
+      "sources": [
+        "红山文化考古发现",
+        "中华文明探源工程相关综述"
+      ],
+      "review_note": null,
+      "figures": [],
+      "quote": {
+        "zh-CN": "玉龙盘绕在北国山丘，礼仪社会悄然成形。",
+        "en-US": "Jade dragons coil over northern hills as ritual society quietly takes shape."
+      },
+      "calendarMonth": 8,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ritual_bronze_vessel_Ding.jpg?width=640",
+        "alt": {
+          "zh-CN": "早期礼仪器物（红山礼仪社会示意）",
+          "en-US": "Early ritual vessel (Hongshan context, illustrative)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-187",
+        "event-189"
+      ]
+    },
+    {
+      "enriched": true,
+      "id": "event-189",
+      "legacy_id": 189,
+      "startYear": -3000,
+      "endYear": -3000,
+      "year_label": "约公元前 3000 年",
+      "precision": "approximate",
+      "uncertain": true,
+      "title": {
+        "zh-CN": "良渚古城",
+        "en-US": "Liangzhu Ancient City"
+      },
+      "summary": {
+        "zh-CN": "浙江良渚古城与水利系统、玉琮礼制，被视作早期区域性国家社会的重要证据。",
+        "en-US": "Liangzhu’s city, waterworks, and jade cong ritual system are key evidence of early regional state-level society."
+      },
+      "body": {
+        "zh-CN": "良渚文化约公元前 3300–前 2300 年，拥有城墙、宫殿区、大型水利工程与高度等级化的玉器礼制。2019 年良渚古城遗址列入世界文化遗产。时间轴取约公元前 3000 年。",
+        "en-US": "Liangzhu (c. 3300–2300 BCE) had walls, a palace zone, major waterworks, and ranked jade ritual goods. The archaeological ruins were inscribed as a UNESCO World Heritage Site in 2019. Timeline marker: about 3000 BCE."
+      },
+      "region": "china",
+      "type": [
+        "culture",
+        "politics"
+      ],
+      "location": {
+        "lat": 30.39,
+        "lng": 119.99,
+        "name": {
+          "zh-CN": "浙江杭州良渚",
+          "en-US": "Liangzhu, Hangzhou"
+        }
+      },
+      "sources": [
+        "良渚古城考古报告",
+        "UNESCO World Heritage: Archaeological Ruins of Liangzhu City"
+      ],
+      "review_note": null,
+      "figures": [],
+      "quote": {
+        "zh-CN": "玉琮与城墙之间，长江下游升起早期文明的曙光。",
+        "en-US": "Between jade cong and city walls, early civilization dawns on the lower Yangtze."
+      },
+      "calendarMonth": 7,
+      "calendarDay": 6,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yinxu.jpg?width=640",
+        "alt": {
+          "zh-CN": "早期城址考古景观（良渚文明示意）",
+          "en-US": "Early urban archaeology (Liangzhu context, illustrative)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-188",
+        "event-190",
+        "event-1"
+      ]
+    },
     {
       "id": "event-1",
       "legacy_id": 1,
@@ -77,6 +534,66 @@
       },
       "calendarMonth": 8,
       "calendarDay": 23
+    },
+    {
+      "enriched": true,
+      "id": "event-190",
+      "legacy_id": 190,
+      "startYear": -2500,
+      "endYear": -2500,
+      "year_label": "约公元前 2500 年",
+      "precision": "approximate",
+      "uncertain": true,
+      "title": {
+        "zh-CN": "龙山文化",
+        "en-US": "Longshan Culture"
+      },
+      "summary": {
+        "zh-CN": "龙山时代黑陶与城址遍布黄河中下游，社会分化加剧，迈向早期国家。",
+        "en-US": "Longshan black pottery and towns spread across the middle–lower Yellow River as society grew more stratified toward early states."
+      },
+      "body": {
+        "zh-CN": "龙山文化约公元前 2500–前 2000 年，以薄胎黑陶、夯土城墙和明显的贫富分化著称，常被视为夏王朝前后中原社会复杂化的背景。",
+        "en-US": "Longshan culture (c. 2500–2000 BCE) is known for eggshell black pottery, rammed-earth walls, and sharp wealth gaps—often treated as the backdrop to early state formation around the Xia period."
+      },
+      "region": "china",
+      "type": [
+        "culture",
+        "politics"
+      ],
+      "location": {
+        "lat": 36.7,
+        "lng": 117,
+        "name": {
+          "zh-CN": "山东章丘龙山一带",
+          "en-US": "Longshan area, Shandong"
+        }
+      },
+      "sources": [
+        "龙山文化考古综述",
+        "中国历史（七年级）"
+      ],
+      "review_note": null,
+      "figures": [],
+      "quote": {
+        "zh-CN": "黑陶如镜，城垣如线——复杂社会在黄河岸边成型。",
+        "en-US": "Mirror-black pottery and straight walls—complex society takes form on the Yellow River."
+      },
+      "calendarMonth": 9,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erlitou_Bronze_Jue.jpg?width=640",
+        "alt": {
+          "zh-CN": "二里头青铜爵（龙山之后早期国家社会示意）",
+          "en-US": "Erlitou bronze jue (post-Longshan early state context)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-189",
+        "event-3",
+        "event-4"
+      ]
     },
     {
       "id": "event-2",
@@ -260,7 +777,25 @@
       "quote": {
         "zh-CN": "从禅让到世袭，夏朝传说标志着王权传承方式的转折。",
         "en-US": "From abdication to hereditary rule—the Xia legend marks a turn in how kingship passed."
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "尚书",
+            "en-US": "Book of Documents"
+          },
+          "author": {
+            "zh-CN": "先秦文献汇编",
+            "en-US": "Early Chinese compilation"
+          },
+          "kind": "chronicle",
+          "relation": {
+            "zh-CN": "上古政治文献汇编，夏商周传说多借此流传。",
+            "en-US": "Early political documents through which Xia–Shang–Zhou lore was transmitted."
+          },
+          "url": "https://zh.wikipedia.org/wiki/尚书"
+        }
+      ]
     },
     {
       "enriched": true,
@@ -569,7 +1104,25 @@
           "en-US": "Yinxu archaeological site"
         },
         "credit": "Wikimedia Commons"
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "甲骨文与殷墟考古报告选读",
+            "en-US": "Oracle bones & Yinxu reports"
+          },
+          "author": {
+            "zh-CN": "考古与古文字学者",
+            "en-US": "Archaeologists & paleographers"
+          },
+          "kind": "chronicle",
+          "relation": {
+            "zh-CN": "非虚构「文本」，却是读懂商晚期最直接的文字材料。",
+            "en-US": "Not fiction—but the most direct textual window onto late Shang."
+          },
+          "url": "https://zh.wikipedia.org/wiki/甲骨文"
+        }
+      ]
     },
     {
       "enriched": true,
@@ -753,7 +1306,41 @@
       "quote": {
         "zh-CN": "特洛伊的城墙与荷马的史诗，连接考古与传说的永恒谜题。",
         "en-US": "Troy's walls and Homer's epic—an eternal puzzle linking archaeology and legend."
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "伊利亚特",
+            "en-US": "The Iliad"
+          },
+          "author": {
+            "zh-CN": "荷马",
+            "en-US": "Homer"
+          },
+          "kind": "epic",
+          "relation": {
+            "zh-CN": "以特洛伊战争为背景的古希腊史诗，塑造了西方文学的战争与英雄传统。",
+            "en-US": "Greek epic of the Trojan War that shaped Western ideas of heroism and conflict."
+          },
+          "url": "https://zh.wikipedia.org/wiki/伊利亚特"
+        },
+        {
+          "title": {
+            "zh-CN": "奥德赛",
+            "en-US": "The Odyssey"
+          },
+          "author": {
+            "zh-CN": "荷马",
+            "en-US": "Homer"
+          },
+          "kind": "epic",
+          "relation": {
+            "zh-CN": "特洛伊战后奥德修斯归乡的史诗续篇。",
+            "en-US": "Epic sequel of Odysseus’s homecoming after Troy."
+          },
+          "url": "https://zh.wikipedia.org/wiki/奥德赛"
+        }
+      ]
     },
     {
       "enriched": true,
@@ -928,7 +1515,25 @@
         "en-US": "At Muye, King Wu overthrew the Shang— a new chapter of ritual civilization began."
       },
       "calendarMonth": 2,
-      "calendarDay": 20
+      "calendarDay": 20,
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "封神演义",
+            "en-US": "Investiture of the Gods"
+          },
+          "author": {
+            "zh-CN": "许仲琳（传）",
+            "en-US": "Attributed to Xu Zhonglin"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "以武王伐纣为骨架的神魔小说，把商周鼎革写成通俗传奇。",
+            "en-US": "Fantasy novel that retells the Zhou conquest of Shang as popular legend."
+          },
+          "url": "https://zh.wikipedia.org/wiki/封神演义"
+        }
+      ]
     },
     {
       "id": "event-13",
@@ -2064,7 +2669,25 @@
             }
           }
         ]
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "亚历山大远征记",
+            "en-US": "Anabasis of Alexander"
+          },
+          "author": {
+            "zh-CN": "阿里安",
+            "en-US": "Arrian"
+          },
+          "kind": "chronicle",
+          "relation": {
+            "zh-CN": "古典作家整理的亚历山大东征叙事，文学性与史传并重。",
+            "en-US": "Classical narrative of Alexander’s campaigns—history with literary force."
+          },
+          "url": "https://zh.wikipedia.org/wiki/亚历山大远征记"
+        }
+      ]
     },
     {
       "id": "event-26",
@@ -2288,7 +2911,119 @@
             }
           }
         ]
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "过秦论",
+            "en-US": "The Faults of Qin"
+          },
+          "author": {
+            "zh-CN": "贾谊",
+            "en-US": "Jia Yi"
+          },
+          "kind": "essay",
+          "relation": {
+            "zh-CN": "西汉政论名篇，反思秦速亡，常与统一、苛政并读。",
+            "en-US": "Han political essay reflecting on Qin’s rapid collapse after unification."
+          },
+          "url": "https://zh.wikipedia.org/wiki/过秦论"
+        },
+        {
+          "title": {
+            "zh-CN": "史记·秦始皇本纪",
+            "en-US": "Records of the Grand Historian: Qin Shi Huang"
+          },
+          "author": {
+            "zh-CN": "司马迁",
+            "en-US": "Sima Qian"
+          },
+          "kind": "chronicle",
+          "relation": {
+            "zh-CN": "既是核心史料，也是文学性极强的纪传书写。",
+            "en-US": "Foundational chronicle that is also a masterpiece of narrative prose."
+          },
+          "url": "https://zh.wikipedia.org/wiki/史记"
+        }
+      ]
+    },
+    {
+      "enriched": true,
+      "precision": "approximate",
+      "uncertain": true,
+      "sources": [
+        "中国历史（中学教材）"
+      ],
+      "review_note": null,
+      "figures": [
+        "秦始皇"
+      ],
+      "id": "event-191",
+      "legacy_id": 191,
+      "startYear": -214,
+      "endYear": -214,
+      "year_label": "约公元前214年",
+      "title": {
+        "zh-CN": "秦修万里长城",
+        "en-US": "Qin Builds the Great Wall"
+      },
+      "summary": {
+        "zh-CN": "秦始皇连接并扩建北方长城，抵御匈奴，成为后世长城体系的重要起点。",
+        "en-US": "Qin Shi Huang linked and expanded northern walls against the Xiongnu—an early core of the later Great Wall system."
+      },
+      "body": {
+        "zh-CN": "统一后，秦朝征发民力把战国长城连缀加固，防线东起辽东、西至临洮。教材常以此说明中央集权国家对边疆与徭役的动员能力。",
+        "en-US": "After unification, Qin mobilized labor to connect Warring States walls from Liaodong to Lintao—often cited in textbooks as evidence of centralized power and frontier defense."
+      },
+      "region": "china",
+      "type": [
+        "tech",
+        "politics"
+      ],
+      "location": {
+        "lat": 40.43,
+        "lng": 116.57,
+        "name": {
+          "zh-CN": "北方长城沿线",
+          "en-US": "Northern frontier walls"
+        }
+      },
+      "quote": {
+        "zh-CN": "长城不是一条线，是帝国把边疆写进山脊的句子。",
+        "en-US": "The Wall is not a line—it is an empire writing its frontier into the ridges."
+      },
+      "calendarMonth": 10,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Great_Wall_of_China_at_Jinshanling.jpg?width=640",
+        "alt": {
+          "zh-CN": "金山岭长城",
+          "en-US": "Great Wall at Jinshanling"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-28",
+        "event-29"
+      ],
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "长城谣 / 边塞诗选",
+            "en-US": "Frontier poems of the Wall"
+          },
+          "author": {
+            "zh-CN": "历代边塞诗人",
+            "en-US": "Classical frontier poets"
+          },
+          "kind": "poem",
+          "relation": {
+            "zh-CN": "长城在历代诗歌中成为戍边、乡愁与家国的象征。",
+            "en-US": "In classical verse the Wall became a symbol of frontier duty and longing."
+          },
+          "url": "https://zh.wikipedia.org/wiki/边塞诗"
+        }
+      ]
     },
     {
       "id": "event-29",
@@ -2540,7 +3275,25 @@
         "en-US": "Gaozu made Chang'an capital—the name Han would echo through history."
       },
       "calendarMonth": 2,
-      "calendarDay": 28
+      "calendarDay": 28,
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "史记",
+            "en-US": "Records of the Grand Historian"
+          },
+          "author": {
+            "zh-CN": "司马迁",
+            "en-US": "Sima Qian"
+          },
+          "kind": "chronicle",
+          "relation": {
+            "zh-CN": "汉帝国史家写就的通史丰碑，楚汉风云多从此出。",
+            "en-US": "Han masterpiece of universal history; the Chu–Han struggle lives here."
+          },
+          "url": "https://zh.wikipedia.org/wiki/史记"
+        }
+      ]
     },
     {
       "enriched": true,
@@ -2597,6 +3350,85 @@
         },
         "credit": "Wikimedia Commons"
       }
+    },
+    {
+      "enriched": true,
+      "precision": "approximate",
+      "uncertain": true,
+      "sources": [
+        "中国历史（中学教材）"
+      ],
+      "review_note": null,
+      "figures": [
+        "张骞",
+        "汉武帝"
+      ],
+      "id": "event-192",
+      "legacy_id": 192,
+      "startYear": -138,
+      "endYear": -126,
+      "year_label": "公元前138年–前126年",
+      "title": {
+        "zh-CN": "张骞通西域",
+        "en-US": "Zhang Qian's Mission to the Western Regions"
+      },
+      "summary": {
+        "zh-CN": "汉武帝派张骞出使月氏，虽未完成军事结盟，却打通中原与西域的官方往来，被视作丝绸之路的开通标志。",
+        "en-US": "Emperor Wu sent Zhang Qian to the Yuezhi. The alliance failed, but official links to Central Asia opened—often seen as the Silk Road's start."
+      },
+      "body": {
+        "zh-CN": "张骞两度出使西域，带回地理、物产与诸国见闻。此后汉朝经营河西、设置西域都护，欧亚陆路贸易与文化交流逐渐兴盛。",
+        "en-US": "Zhang Qian traveled west twice, returning with geography and knowledge of distant peoples. Han later secured the Hexi Corridor and installed a Protectorate—boosting Eurasian overland exchange."
+      },
+      "region": "china",
+      "type": [
+        "diplomacy",
+        "culture"
+      ],
+      "location": {
+        "lat": 34.27,
+        "lng": 108.95,
+        "name": {
+          "zh-CN": "长安",
+          "en-US": "Chang'an"
+        }
+      },
+      "quote": {
+        "zh-CN": "一支使团走出函谷关，把世界的宽度量进汉朝的视野。",
+        "en-US": "An embassy left the passes and stretched the Han world’s horizon."
+      },
+      "calendarMonth": 1,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ban_Chhao.jpg?width=640",
+        "alt": {
+          "zh-CN": "经营西域相关历史人物像（示意）",
+          "en-US": "Western Regions envoy portrait (illustrative)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-36",
+        "event-32"
+      ],
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "史记·大宛列传",
+            "en-US": "Shiji: Account of Dayuan"
+          },
+          "author": {
+            "zh-CN": "司马迁",
+            "en-US": "Sima Qian"
+          },
+          "kind": "chronicle",
+          "relation": {
+            "zh-CN": "详记张骞凿空西域，是丝路早期叙事的经典出处。",
+            "en-US": "Classic account of Zhang Qian’s pioneering western mission."
+          },
+          "url": "https://zh.wikipedia.org/wiki/大宛列传"
+        }
+      ]
     },
     {
       "enriched": true,
@@ -2715,6 +3547,24 @@
         "event-33",
         "event-19",
         "event-44"
+      ],
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "裘力斯·凯撒",
+            "en-US": "Julius Caesar"
+          },
+          "author": {
+            "zh-CN": "莎士比亚",
+            "en-US": "William Shakespeare"
+          },
+          "kind": "drama",
+          "relation": {
+            "zh-CN": "以凯撒遇刺与罗马共和末期为题材的经典悲剧。",
+            "en-US": "Tragedy of Caesar’s assassination and the Republic’s last crisis."
+          },
+          "url": "https://zh.wikipedia.org/wiki/裘力斯·凯撒_(戏剧)"
+        }
       ]
     },
     {
@@ -3064,6 +3914,102 @@
       "calendarDay": 15
     },
     {
+      "enriched": true,
+      "precision": "year",
+      "uncertain": false,
+      "sources": [
+        "中国历史（中学教材）"
+      ],
+      "review_note": null,
+      "figures": [
+        "曹操",
+        "周瑜",
+        "刘备",
+        "孙权"
+      ],
+      "id": "event-193",
+      "legacy_id": 193,
+      "startYear": 208,
+      "endYear": 208,
+      "year_label": "公元208年",
+      "title": {
+        "zh-CN": "赤壁之战",
+        "en-US": "Battle of Red Cliffs"
+      },
+      "summary": {
+        "zh-CN": "孙刘联军在赤壁击败曹操，奠定魏蜀吴三分天下的格局。",
+        "en-US": "Sun–Liu forces defeated Cao Cao at Red Cliffs, locking in the Three Kingdoms balance."
+      },
+      "body": {
+        "zh-CN": "建安十三年，曹操南下荆州，孙权与刘备联合火攻，曹军北退。赤壁之战是中国古代著名以少胜多的战役，也是三国分立的关键节点。",
+        "en-US": "In 208, Cao Cao's southern campaign was checked by a Sun–Liu alliance. Red Cliffs became a classic underdog victory and a hinge of the Three Kingdoms era."
+      },
+      "region": "china",
+      "type": [
+        "war"
+      ],
+      "location": {
+        "lat": 29.72,
+        "lng": 113.88,
+        "name": {
+          "zh-CN": "湖北赤壁一带",
+          "en-US": "Chibi, Hubei"
+        }
+      },
+      "quote": {
+        "zh-CN": "江上火光一夜，北方的统一梦在南岸熄灭。",
+        "en-US": "One night of fire on the river ended a northern dream of quick unity."
+      },
+      "calendarMonth": 12,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Guan_Yu_Statue.jpg?width=640",
+        "alt": {
+          "zh-CN": "关羽像（三国文化象征）",
+          "en-US": "Guan Yu statue (Three Kingdoms icon)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-38",
+        "event-39"
+      ],
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "三国演义",
+            "en-US": "Romance of the Three Kingdoms"
+          },
+          "author": {
+            "zh-CN": "罗贯中",
+            "en-US": "Luo Guanzhong"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "赤壁之战是全书高潮之一；小说叙述与史实有虚实之别。",
+            "en-US": "Red Cliffs is a novelistic climax—more drama than strict chronicle."
+          },
+          "url": "https://zh.wikipedia.org/wiki/三国演义"
+        },
+        {
+          "title": {
+            "zh-CN": "念奴娇·赤壁怀古",
+            "en-US": "Niannujiao: Meditation on the Red Cliff"
+          },
+          "author": {
+            "zh-CN": "苏轼",
+            "en-US": "Su Shi"
+          },
+          "kind": "poem",
+          "relation": {
+            "zh-CN": "宋词名篇，借赤壁江山抒写英雄与兴亡。",
+            "en-US": "Song lyric that turns Red Cliffs into a meditation on heroes and time."
+          },
+          "url": "https://zh.wikipedia.org/wiki/念奴娇·赤壁怀古"
+        }
+      ]
+    },
+    {
       "id": "event-38",
       "legacy_id": 38,
       "startYear": 220,
@@ -3124,7 +4070,25 @@
         "en-US": "The emperor abdicated—the Three Kingdoms game officially began."
       },
       "calendarMonth": 12,
-      "calendarDay": 11
+      "calendarDay": 11,
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "三国演义",
+            "en-US": "Romance of the Three Kingdoms"
+          },
+          "author": {
+            "zh-CN": "罗贯中",
+            "en-US": "Luo Guanzhong"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "以汉末三国为舞台的章回小说，是华人世界最熟悉的历史演义。",
+            "en-US": "The definitive historical novel of late Han and the Three Kingdoms."
+          },
+          "url": "https://zh.wikipedia.org/wiki/三国演义"
+        }
+      ]
     },
     {
       "id": "event-39",
@@ -3846,6 +4810,126 @@
       }
     },
     {
+      "enriched": true,
+      "precision": "year",
+      "uncertain": false,
+      "sources": [
+        "中国历史（中学教材）"
+      ],
+      "review_note": null,
+      "figures": [
+        "隋炀帝"
+      ],
+      "id": "event-194",
+      "legacy_id": 194,
+      "startYear": 605,
+      "endYear": 605,
+      "year_label": "公元605年",
+      "title": {
+        "zh-CN": "隋朝开凿大运河",
+        "en-US": "Sui Opens the Grand Canal"
+      },
+      "summary": {
+        "zh-CN": "隋炀帝连通南北水运，大运河成为后世王朝转运粮饷与人员的大动脉。",
+        "en-US": "Under Emperor Yang, the Sui linked north–south waterways—the Grand Canal became later dynasties' logistics spine."
+      },
+      "body": {
+        "zh-CN": "大业年间开凿通济渠等河段，连接海河、黄河、淮河、长江与钱塘江水系。运河促进南北经济文化交流，也因徭役沉重成为隋亡的重要背景。",
+        "en-US": "Canals such as Tongji linked major river systems. They boosted north–south exchange—and heavy corvée helped undermine the Sui."
+      },
+      "region": "china",
+      "type": [
+        "tech",
+        "politics"
+      ],
+      "location": {
+        "lat": 34.62,
+        "lng": 112.45,
+        "name": {
+          "zh-CN": "洛阳",
+          "en-US": "Luoyang"
+        }
+      },
+      "quote": {
+        "zh-CN": "一河贯南北，也把帝国的负担写进水纹。",
+        "en-US": "One river stitched the realm—and wrote its burdens into the water."
+      },
+      "calendarMonth": 3,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emperor_Wen_of_Sui.jpg?width=640",
+        "alt": {
+          "zh-CN": "隋代帝王像（大运河时代）",
+          "en-US": "Sui emperor portrait (Grand Canal era)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-48",
+        "event-195"
+      ]
+    },
+    {
+      "enriched": true,
+      "precision": "approximate",
+      "uncertain": true,
+      "sources": [
+        "中国历史（中学教材）"
+      ],
+      "review_note": "科举成型过程跨隋唐，取约605年作为教材常用起点。",
+      "figures": [
+        "隋炀帝"
+      ],
+      "id": "event-195",
+      "legacy_id": 195,
+      "startYear": 605,
+      "endYear": 605,
+      "year_label": "约公元605年",
+      "title": {
+        "zh-CN": "科举制创立",
+        "en-US": "Imperial Examination System Founded"
+      },
+      "summary": {
+        "zh-CN": "隋朝开始以分科考试选拔官员，科举逐渐取代门阀荐举，深刻塑造中国社会流动。",
+        "en-US": "The Sui began selecting officials by exam subjects—gradually displacing aristocratic recommendation and reshaping social mobility."
+      },
+      "body": {
+        "zh-CN": "进士等科目在隋唐完善，宋代以后成为入仕主渠道。科举把儒家经典与官僚选拔绑定，影响东亚千年，也留下八股与应试文化等争议遗产。",
+        "en-US": "Jinshi and related degrees matured in Sui–Tang and dominated Song careers. Exams tied Confucian learning to office for a millennium across East Asia—while later inviting criticism of rote culture."
+      },
+      "region": "china",
+      "type": [
+        "culture",
+        "institution"
+      ],
+      "location": {
+        "lat": 34.62,
+        "lng": 112.45,
+        "name": {
+          "zh-CN": "洛阳",
+          "en-US": "Luoyang"
+        }
+      },
+      "quote": {
+        "zh-CN": "一卷试卷，打开寒门通向朝堂的窄门。",
+        "en-US": "A single scroll opened a narrow door from humble homes to court."
+      },
+      "calendarMonth": 4,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Confucius_Temple_Dujiangyan.jpg?width=640",
+        "alt": {
+          "zh-CN": "文庙（科举与儒家教育象征）",
+          "en-US": "Confucian temple (exam culture symbol)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-194",
+        "event-48"
+      ]
+    },
+    {
       "id": "event-50",
       "legacy_id": 50,
       "startYear": 610,
@@ -4210,7 +5294,41 @@
             }
           }
         ]
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "大唐西域记",
+            "en-US": "Great Tang Records on the Western Regions"
+          },
+          "author": {
+            "zh-CN": "玄奘述，辩机编",
+            "en-US": "Xuanzang / Bianji"
+          },
+          "kind": "travel",
+          "relation": {
+            "zh-CN": "玄奘亲历记录，既是地理史书，也启发了《西游记》的想象。",
+            "en-US": "Xuanzang’s travel record—history and geography that later inspired Journey to the West."
+          },
+          "url": "https://zh.wikipedia.org/wiki/大唐西域记"
+        },
+        {
+          "title": {
+            "zh-CN": "西游记",
+            "en-US": "Journey to the West"
+          },
+          "author": {
+            "zh-CN": "吴承恩",
+            "en-US": "Wu Cheng'en"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "以取经故事为壳的神魔小说，历史原型可追溯到玄奘西行。",
+            "en-US": "Fantasy novel whose pilgrimage frame echoes Xuanzang’s journey."
+          },
+          "url": "https://zh.wikipedia.org/wiki/西游记"
+        }
+      ]
     },
     {
       "id": "event-54",
@@ -4585,6 +5703,103 @@
       }
     },
     {
+      "enriched": true,
+      "precision": "year",
+      "uncertain": false,
+      "sources": [
+        "中国历史（中学教材）"
+      ],
+      "review_note": null,
+      "figures": [
+        "安禄山",
+        "唐玄宗",
+        "唐肃宗"
+      ],
+      "id": "event-196",
+      "legacy_id": 196,
+      "startYear": 755,
+      "endYear": 763,
+      "year_label": "公元755年–763年",
+      "title": {
+        "zh-CN": "安史之乱",
+        "en-US": "An Lushan Rebellion"
+      },
+      "summary": {
+        "zh-CN": "安禄山、史思明起兵叛唐，长安洛阳沦陷，唐朝由盛转衰。",
+        "en-US": "An Lushan and Shi Siming rebelled; Chang’an and Luoyang fell—and Tang glory tipped into decline."
+      },
+      "body": {
+        "zh-CN": "天宝十四载安禄山于范阳起兵，玄宗幸蜀，肃宗灵武即位。乱平后藩镇割据加深，人口与经济遭受重创，是唐史分水岭。",
+        "en-US": "From Fanyang in 755, the revolt forced Xuanzong west and left deeper provincial warlordism even after 763—a watershed in Tang history."
+      },
+      "region": "china",
+      "type": [
+        "war",
+        "politics"
+      ],
+      "location": {
+        "lat": 39.93,
+        "lng": 116.39,
+        "name": {
+          "zh-CN": "范阳（今北京一带）",
+          "en-US": "Fanyang (near modern Beijing)"
+        }
+      },
+      "quote": {
+        "zh-CN": "盛唐的华灯未灭，烽火已烧到宫墙之外。",
+        "en-US": "Tang’s lanterns still burned—while beacon fires reached the palace walls."
+      },
+      "calendarMonth": 12,
+      "calendarDay": 16,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tang_Taizong.jpg?width=640",
+        "alt": {
+          "zh-CN": "唐代帝王像（盛唐转衰背景）",
+          "en-US": "Tang emperor portrait (High Tang context)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-51",
+        "event-64",
+        "event-59"
+      ],
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "长恨歌",
+            "en-US": "Song of Everlasting Sorrow"
+          },
+          "author": {
+            "zh-CN": "白居易",
+            "en-US": "Bai Juyi"
+          },
+          "kind": "poem",
+          "relation": {
+            "zh-CN": "以安史之乱中玄宗、杨贵妃命运为题材的长篇叙事诗。",
+            "en-US": "Long narrative poem on Xuanzong and Yang Guifei amid the An Lushan revolt."
+          },
+          "url": "https://zh.wikipedia.org/wiki/长恨歌"
+        },
+        {
+          "title": {
+            "zh-CN": "三吏三别",
+            "en-US": "The Three Officials and Three Partings"
+          },
+          "author": {
+            "zh-CN": "杜甫",
+            "en-US": "Du Fu"
+          },
+          "kind": "poem",
+          "relation": {
+            "zh-CN": "乱世中的民生实录，战争年代「诗史」的代表。",
+            "en-US": "Poems of wartime suffering—Du Fu’s “history in verse.”"
+          },
+          "url": "https://zh.wikipedia.org/wiki/三吏三别"
+        }
+      ]
+    },
+    {
       "id": "event-60",
       "legacy_id": 60,
       "startYear": 800,
@@ -4645,7 +5860,25 @@
         "en-US": "Crowned on Christmas Day, Charlemagne sought to revive Rome’s glory."
       },
       "calendarMonth": 12,
-      "calendarDay": 25
+      "calendarDay": 25,
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "罗兰之歌",
+            "en-US": "The Song of Roland"
+          },
+          "author": {
+            "zh-CN": "佚名",
+            "en-US": "Anonymous"
+          },
+          "kind": "epic",
+          "relation": {
+            "zh-CN": "查理曼时代背景的法兰西武功歌，塑造骑士忠勇理想。",
+            "en-US": "Old French epic of the Carolingian age and chivalric ideals."
+          },
+          "url": "https://zh.wikipedia.org/wiki/罗兰之歌"
+        }
+      ]
     },
     {
       "enriched": true,
@@ -4828,7 +6061,25 @@
           "en-US": "Charlemagne-era coin"
         },
         "credit": "Wikimedia Commons"
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "罗兰之歌",
+            "en-US": "The Song of Roland"
+          },
+          "author": {
+            "zh-CN": "佚名",
+            "en-US": "Anonymous"
+          },
+          "kind": "epic",
+          "relation": {
+            "zh-CN": "虽早于凡尔登条约定型，却与加洛林世界的记忆紧密相连。",
+            "en-US": "Earlier than Verdun, yet bound to Carolingian memory and Frankish identity."
+          },
+          "url": "https://zh.wikipedia.org/wiki/罗兰之歌"
+        }
+      ]
     },
     {
       "id": "event-63",
@@ -5343,6 +6594,86 @@
       }
     },
     {
+      "enriched": true,
+      "precision": "approximate",
+      "uncertain": true,
+      "sources": [
+        "《梦溪笔谈》",
+        "中国历史（中学教材）"
+      ],
+      "review_note": null,
+      "figures": [
+        "毕昇",
+        "沈括"
+      ],
+      "id": "event-197",
+      "legacy_id": 197,
+      "startYear": 1041,
+      "endYear": 1048,
+      "year_label": "约公元1041年–1048年",
+      "title": {
+        "zh-CN": "毕昇发明活字印刷",
+        "en-US": "Bi Sheng Invents Movable Type"
+      },
+      "summary": {
+        "zh-CN": "北宋匠人毕昇发明泥活字，是世界最早的活字印刷术之一。",
+        "en-US": "Bi Sheng of the Northern Song invented clay movable type—among the world’s earliest."
+      },
+      "body": {
+        "zh-CN": "沈括《梦溪笔谈》记载毕昇以胶泥刻字、火烧成坚，排版印刷。活字术后来经木活字、金属活字发展，与雕版并行，推动知识传播。",
+        "en-US": "Shen Kuo recorded Bi Sheng’s fired-clay types. Later wood and metal types spread alongside woodblock printing and accelerated the circulation of knowledge."
+      },
+      "region": "china",
+      "type": [
+        "tech",
+        "culture"
+      ],
+      "location": {
+        "lat": 30.27,
+        "lng": 120.15,
+        "name": {
+          "zh-CN": "杭州一带",
+          "en-US": "Hangzhou region"
+        }
+      },
+      "quote": {
+        "zh-CN": "一粒泥字，让书页可以拆开再重组成另一个世界。",
+        "en-US": "A clay character let pages be taken apart and rebuilt into another world."
+      },
+      "calendarMonth": 1,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diamond_Sutra_868.jpg?width=640",
+        "alt": {
+          "zh-CN": "早期印刷品《金刚经》（印刷术传统）",
+          "en-US": "Diamond Sutra (early print tradition)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-63",
+        "event-65"
+      ],
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "梦溪笔谈",
+            "en-US": "Dream Pool Essays"
+          },
+          "author": {
+            "zh-CN": "沈括",
+            "en-US": "Shen Kuo"
+          },
+          "kind": "essay",
+          "relation": {
+            "zh-CN": "记载毕昇活字法的科技笔记，本身也是宋代笔记文学名著。",
+            "en-US": "Song miscellany that records Bi Sheng’s type—and stands as literary prose."
+          },
+          "url": "https://zh.wikipedia.org/wiki/梦溪笔谈"
+        }
+      ]
+    },
+    {
       "id": "event-68",
       "legacy_id": 68,
       "startYear": 1054,
@@ -5620,7 +6951,25 @@
         "en-US": "The Crusades set out—faith and profit reshaped the Mediterranean world."
       },
       "calendarMonth": 11,
-      "calendarDay": 27
+      "calendarDay": 27,
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "神曲",
+            "en-US": "The Divine Comedy"
+          },
+          "author": {
+            "zh-CN": "但丁",
+            "en-US": "Dante Alighieri"
+          },
+          "kind": "poem",
+          "relation": {
+            "zh-CN": "中世纪末期基督教世界观的文学高峰，十字军时代余波仍在其中回响。",
+            "en-US": "Late medieval Christian epic; Crusading-era imagination still echoes within."
+          },
+          "url": "https://zh.wikipedia.org/wiki/神曲"
+        }
+      ]
     },
     {
       "id": "event-71",
@@ -6532,7 +7881,25 @@
           "en-US": "Marco Polo"
         },
         "credit": "Wikimedia Commons"
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "马可·波罗游记",
+            "en-US": "The Travels of Marco Polo"
+          },
+          "author": {
+            "zh-CN": "马可·波罗 / 鲁思梯谦",
+            "en-US": "Marco Polo / Rustichello"
+          },
+          "kind": "travel",
+          "relation": {
+            "zh-CN": "欧洲人想象东方的经典文本，真伪争议本身也是阅读史的一部分。",
+            "en-US": "Europe’s classic image of the East—authenticity debates included."
+          },
+          "url": "https://zh.wikipedia.org/wiki/马可·波罗游记"
+        }
+      ]
     },
     {
       "id": "event-79",
@@ -6960,6 +8327,24 @@
         "event-82",
         "event-83",
         "event-86"
+      ],
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "十日谈",
+            "en-US": "The Decameron"
+          },
+          "author": {
+            "zh-CN": "薄伽丘",
+            "en-US": "Giovanni Boccaccio"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "黑死病阴影下的佛罗伦萨故事集，人间百态与瘟疫年代并置。",
+            "en-US": "Florentine tales told in the shadow of the Black Death."
+          },
+          "url": "https://zh.wikipedia.org/wiki/十日谈"
+        }
       ]
     },
     {
@@ -7402,7 +8787,25 @@
         "en-US": "Constantinople’s walls fell—the geopolitical center of the medieval world shifted."
       },
       "calendarMonth": 5,
-      "calendarDay": 29
+      "calendarDay": 29,
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "伊斯坦布尔：一座城市的记忆",
+            "en-US": "Istanbul: Memories and the City"
+          },
+          "author": {
+            "zh-CN": "奥尔罕·帕慕克",
+            "en-US": "Orhan Pamuk"
+          },
+          "kind": "essay",
+          "relation": {
+            "zh-CN": "现代作家书写帝国故都，可与1453年城破后的城市命运对读。",
+            "en-US": "A modern meditation on the imperial city after 1453."
+          },
+          "url": "https://zh.wikipedia.org/wiki/伊斯坦布尔：一座城市的记忆"
+        }
+      ]
     },
     {
       "id": "event-87",
@@ -7501,7 +8904,25 @@
             }
           }
         ]
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "堂吉诃德",
+            "en-US": "Don Quixote"
+          },
+          "author": {
+            "zh-CN": "塞万提斯",
+            "en-US": "Miguel de Cervantes"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "印刷术普及后的早期现代小说高峰，骑士书畅销恰因纸本传播。",
+            "en-US": "Early modern novel born in the age of print and popular chivalric books."
+          },
+          "url": "https://zh.wikipedia.org/wiki/堂吉诃德"
+        }
+      ]
     },
     {
       "id": "event-88",
@@ -7608,7 +9029,25 @@
             }
           }
         ]
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "哥伦布航海日记",
+            "en-US": "Journal of Christopher Columbus"
+          },
+          "author": {
+            "zh-CN": "哥伦布（传抄）",
+            "en-US": "Christopher Columbus (transmitted)"
+          },
+          "kind": "travel",
+          "relation": {
+            "zh-CN": "大航海亲历文本，是理解「发现」叙事的第一手材料。",
+            "en-US": "First-person voyage text behind the “discovery” narrative."
+          },
+          "url": "https://zh.wikipedia.org/wiki/克里斯托弗·哥伦布"
+        }
+      ]
     },
     {
       "id": "event-89",
@@ -9167,7 +10606,25 @@
             }
           }
         ]
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "双城记",
+            "en-US": "A Tale of Two Cities"
+          },
+          "author": {
+            "zh-CN": "狄更斯",
+            "en-US": "Charles Dickens"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "以法国大革命为背景的英国小说，写暴力、宽恕与时代撕裂。",
+            "en-US": "Dickens’s novel of the French Revolution—violence, mercy, and rupture."
+          },
+          "url": "https://zh.wikipedia.org/wiki/双城记"
+        }
+      ]
     },
     {
       "enriched": true,
@@ -9525,7 +10982,183 @@
         "en-US": "The guns of the Opium War opened the door to modern Chinese history."
       },
       "calendarMonth": 6,
-      "calendarDay": 9
+      "calendarDay": 9,
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "官场现形记",
+            "en-US": "Officialdom Unmasked"
+          },
+          "author": {
+            "zh-CN": "李宝嘉",
+            "en-US": "Li Boyuan"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "晚清谴责小说，写鸦片战争后官场腐败与社会失序。",
+            "en-US": "Late-Qing exposé novel of official corruption after the Opium War shock."
+          },
+          "url": "https://zh.wikipedia.org/wiki/官场现形记"
+        }
+      ]
+    },
+    {
+      "enriched": true,
+      "precision": "year",
+      "uncertain": false,
+      "sources": [
+        "中国历史（中学教材）"
+      ],
+      "review_note": null,
+      "figures": [
+        "林则徐"
+      ],
+      "id": "event-198",
+      "legacy_id": 198,
+      "startYear": 1839,
+      "endYear": 1839,
+      "year_label": "公元1839年",
+      "title": {
+        "zh-CN": "虎门销烟",
+        "en-US": "Destruction of Opium at Humen"
+      },
+      "summary": {
+        "zh-CN": "林则徐在广东虎门销毁收缴鸦片，成为鸦片战争爆发前的关键事件。",
+        "en-US": "Lin Zexu destroyed seized opium at Humen—a flashpoint before the Opium War."
+      },
+      "body": {
+        "zh-CN": "清廷派林则徐为钦差大臣赴粤禁烟，1839年6月在虎门海滩集中销毁鸦片。英国以此为借口发动战争，中国近代史的序幕随之拉开。",
+        "en-US": "As imperial commissioner, Lin Zexu destroyed opium at Humen in June 1839. Britain used the crisis to launch war—opening China’s modern century."
+      },
+      "region": "china",
+      "type": [
+        "politics",
+        "diplomacy"
+      ],
+      "location": {
+        "lat": 22.82,
+        "lng": 113.67,
+        "name": {
+          "zh-CN": "广东虎门",
+          "en-US": "Humen, Guangdong"
+        }
+      },
+      "quote": {
+        "zh-CN": "烟雾散去的海滩上，两个世界的冲突已经无法回头。",
+        "en-US": "When the smoke cleared on the beach, two worlds could no longer turn back."
+      },
+      "calendarMonth": 6,
+      "calendarDay": 3,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Signing_of_the_Treaty_of_Nanking.jpg?width=640",
+        "alt": {
+          "zh-CN": "鸦片战争相关历史场景",
+          "en-US": "Opium War–era historical scene"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-102",
+        "event-199"
+      ],
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "林则徐日记 / 政书选",
+            "en-US": "Lin Zexu’s writings"
+          },
+          "author": {
+            "zh-CN": "林则徐",
+            "en-US": "Lin Zexu"
+          },
+          "kind": "essay",
+          "relation": {
+            "zh-CN": "禁烟当事者的文字，可与虎门销烟史实对读。",
+            "en-US": "Contemporary writings by the commissioner of the Humen destruction."
+          },
+          "url": "https://zh.wikipedia.org/wiki/林则徐"
+        }
+      ]
+    },
+    {
+      "enriched": true,
+      "precision": "year",
+      "uncertain": false,
+      "sources": [
+        "《南京条约》",
+        "中国历史（中学教材）"
+      ],
+      "review_note": null,
+      "figures": [
+        "耆英",
+        "璞鼎查"
+      ],
+      "id": "event-199",
+      "legacy_id": 199,
+      "startYear": 1842,
+      "endYear": 1842,
+      "year_label": "公元1842年",
+      "title": {
+        "zh-CN": "《南京条约》签订",
+        "en-US": "Treaty of Nanking Signed"
+      },
+      "summary": {
+        "zh-CN": "鸦片战争战败后，清政府与英国签订中国近代第一个不平等条约。",
+        "en-US": "After defeat in the Opium War, Qing signed China’s first modern unequal treaty with Britain."
+      },
+      "body": {
+        "zh-CN": "条约割让香港岛、开放五口通商、赔款并协定关税等，标志着中国开始沦为半殖民地半封建社会，也迫使朝野思考变革。",
+        "en-US": "Ceding Hong Kong Island, opening ports, indemnity and tariff terms marked a semi-colonial turn—and pushed elites toward reform debates."
+      },
+      "region": "china",
+      "type": [
+        "diplomacy",
+        "politics"
+      ],
+      "location": {
+        "lat": 32.06,
+        "lng": 118.8,
+        "name": {
+          "zh-CN": "南京",
+          "en-US": "Nanjing"
+        }
+      },
+      "quote": {
+        "zh-CN": "城下之盟写下的不只是条款，还有一个时代的屈辱与警醒。",
+        "en-US": "The treaty wrote not only clauses, but an age’s humiliation—and its alarm."
+      },
+      "calendarMonth": 8,
+      "calendarDay": 29,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Signing_of_the_Treaty_of_Nanking.jpg?width=640",
+        "alt": {
+          "zh-CN": "南京条约签订场景",
+          "en-US": "Signing of the Treaty of Nanking"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-198",
+        "event-102"
+      ],
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "老残游记",
+            "en-US": "The Travels of Lao Can"
+          },
+          "author": {
+            "zh-CN": "刘鹗",
+            "en-US": "Liu E"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "晚清谴责小说代表，写鸦片战争后社会溃败与改良焦虑。",
+            "en-US": "Late-Qing novel of social decay and reform anxiety after the Opium War era."
+          },
+          "url": "https://zh.wikipedia.org/wiki/老残游记"
+        }
+      ]
     },
     {
       "id": "event-103",
@@ -9712,6 +11345,69 @@
       }
     },
     {
+      "enriched": true,
+      "precision": "approximate",
+      "uncertain": true,
+      "sources": [
+        "中国历史（中学教材）"
+      ],
+      "review_note": null,
+      "figures": [
+        "李鸿章",
+        "曾国藩",
+        "张之洞"
+      ],
+      "id": "event-200",
+      "legacy_id": 200,
+      "startYear": 1861,
+      "endYear": 1895,
+      "year_label": "公元1861年起",
+      "title": {
+        "zh-CN": "洋务运动",
+        "en-US": "Self-Strengthening Movement"
+      },
+      "summary": {
+        "zh-CN": "洋务派主张「中体西用」，创办近代军事与民用工业，开启中国近代化尝试。",
+        "en-US": "Self-Strengtheners pursued “Chinese essence, Western use,” founding modern arsenals and industries."
+      },
+      "body": {
+        "zh-CN": "曾国藩、李鸿章、左宗棠、张之洞等推动安庆内军械所、江南制造局、轮船招商局、福州船政等。运动在甲午战争惨败后基本破产，却留下近代企业与技术人才的种子。",
+        "en-US": "Zeng, Li, Zuo, and Zhang built arsenals, shipyards and steam enterprises. Defeat in 1895 largely ended the movement, yet seeded modern industry and technical talent."
+      },
+      "region": "china",
+      "type": [
+        "politics",
+        "tech"
+      ],
+      "location": {
+        "lat": 31.23,
+        "lng": 121.47,
+        "name": {
+          "zh-CN": "上海",
+          "en-US": "Shanghai"
+        }
+      },
+      "quote": {
+        "zh-CN": "师夷长技的机器声里，旧帝国第一次认真听见世界。",
+        "en-US": "In the hum of borrowed machines, an old empire first truly heard the world."
+      },
+      "calendarMonth": 1,
+      "calendarDay": 1,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Deng_Xiaoping_at_arrival_ceremony_for_the_Vice_Premier_of_China_%28cropped%29.jpg/480px-Deng_Xiaoping_at_arrival_ceremony_for_the_Vice_Premier_of_China_%28cropped%29.jpg",
+        "alt": {
+          "zh-CN": "中国近现代变革人物形象（近代化示意）",
+          "en-US": "Modern Chinese reform figure (illustrative)"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-102",
+        "event-199",
+        "event-107"
+      ]
+    },
+    {
       "id": "event-105",
       "legacy_id": 105,
       "startYear": 1868,
@@ -9773,7 +11469,25 @@
         "en-US": "The Meiji era began—Japan raced toward modernization as a nation."
       },
       "calendarMonth": 1,
-      "calendarDay": 3
+      "calendarDay": 3,
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "舞姬",
+            "en-US": "The Dancing Girl"
+          },
+          "author": {
+            "zh-CN": "森鸥外",
+            "en-US": "Mori Ōgai"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "明治知识分子的留学小说，写文明开化中的自我分裂。",
+            "en-US": "Meiji story of study abroad and a self split by civilization and enlightenment."
+          },
+          "url": "https://zh.wikipedia.org/wiki/舞姬_(小说)"
+        }
+      ]
     },
     {
       "id": "event-106",
@@ -10239,7 +11953,25 @@
           }
         ],
         "effects": []
-      }
+      },
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "阿Q正传",
+            "en-US": "The True Story of Ah Q"
+          },
+          "author": {
+            "zh-CN": "鲁迅",
+            "en-US": "Lu Xun"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "辛亥革命前后乡镇社会的讽刺杰作，写「革命」如何落空。",
+            "en-US": "Satire of village China around 1911—how “revolution” can miss the people."
+          },
+          "url": "https://zh.wikipedia.org/wiki/阿Q正传"
+        }
+      ]
     },
     {
       "id": "event-109",
@@ -10418,6 +12150,103 @@
         "event-109",
         "event-110",
         "event-101"
+      ]
+    },
+    {
+      "enriched": true,
+      "precision": "year",
+      "uncertain": false,
+      "sources": [
+        "中国历史（中学教材）"
+      ],
+      "review_note": null,
+      "figures": [
+        "陈独秀",
+        "胡适",
+        "李大钊"
+      ],
+      "id": "event-201",
+      "legacy_id": 201,
+      "startYear": 1919,
+      "endYear": 1919,
+      "year_label": "公元1919年",
+      "title": {
+        "zh-CN": "五四运动",
+        "en-US": "May Fourth Movement"
+      },
+      "summary": {
+        "zh-CN": "巴黎和会外交失败引发学生与市民抗议，推动新文化运动深化与爱国民主思潮。",
+        "en-US": "Diplomatic failure at Versailles sparked student and civic protests—deepening New Culture and patriotic democracy."
+      },
+      "body": {
+        "zh-CN": "1919年5月4日北京学生游行反对将德国在山东权益转交日本，运动迅速波及全国。它促进马克思主义传播，也成为中国现代思想与社会变革的重要坐标。",
+        "en-US": "On 4 May 1919 Beijing students protested transferring German rights in Shandong to Japan. The nationwide movement spread radical ideas and remains a landmark of modern Chinese thought."
+      },
+      "region": "china",
+      "type": [
+        "culture",
+        "politics"
+      ],
+      "location": {
+        "lat": 39.91,
+        "lng": 116.4,
+        "name": {
+          "zh-CN": "北京天安门",
+          "en-US": "Tiananmen, Beijing"
+        }
+      },
+      "quote": {
+        "zh-CN": "一声「外争国权」，把青春写成了民族的惊叹号。",
+        "en-US": "A cry for sovereign rights turned youth into the nation’s exclamation mark."
+      },
+      "calendarMonth": 5,
+      "calendarDay": 4,
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiananmen_Gate.jpg?width=640",
+        "alt": {
+          "zh-CN": "天安门",
+          "en-US": "Tiananmen Gate"
+        },
+        "credit": "Wikimedia Commons"
+      },
+      "contemporary": [
+        "event-108",
+        "event-107",
+        "event-144"
+      ],
+      "literature": [
+        {
+          "title": {
+            "zh-CN": "呐喊",
+            "en-US": "Call to Arms"
+          },
+          "author": {
+            "zh-CN": "鲁迅",
+            "en-US": "Lu Xun"
+          },
+          "kind": "novel",
+          "relation": {
+            "zh-CN": "五四新文化运动的文学高峰，短篇集中的中国现代起点。",
+            "en-US": "Literary landmark of May Fourth—modern Chinese fiction’s starting point."
+          },
+          "url": "https://zh.wikipedia.org/wiki/呐喊_(小说集)"
+        },
+        {
+          "title": {
+            "zh-CN": "新青年",
+            "en-US": "New Youth"
+          },
+          "author": {
+            "zh-CN": "陈独秀等",
+            "en-US": "Chen Duxiu et al."
+          },
+          "kind": "essay",
+          "relation": {
+            "zh-CN": "五四思想策源地刊物，可与学生运动史对照阅读。",
+            "en-US": "Journal that fueled May Fourth ideas alongside the student movement."
+          },
+          "url": "https://zh.wikipedia.org/wiki/新青年"
+        }
       ]
     },
     {
@@ -11730,10 +13559,10 @@
         "enrichment/contemporary-batch4.json"
       ]
     },
-    "enriched_at": "2026-08-26",
-    "patch_count": 139,
-    "contemporary_count": 180,
-    "updated_events": 180,
+    "enriched_at": "2026-09-01",
+    "patch_count": 158,
+    "contemporary_count": 197,
+    "updated_events": 200,
     "fields": [
       "en-US",
       "sources",
@@ -11752,9 +13581,9 @@
   "expansion": {
     "batch6": {
       "file": "enrichment/batch6-events.json",
-      "added": 30,
-      "total": 180,
-      "at": "2026-08-26"
+      "added": 11,
+      "total": 200,
+      "at": "2026-09-01"
     }
   }
 }
